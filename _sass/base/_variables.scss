@@ -1,7 +1,11 @@
 // Typography
-$font-family-main: 'PT Serif', Helvetica, Arial, sans-serif;
-$font-family-headings: 'PT Sans', Helvetica, Arial, sans-serif;
-$font-size: 1.25em;
+$font-family-main: 'PT Serif', serif;
+$font-family-headings: 'PT Sans', sans-serif;
+$font-size: 1.1em;
+
+// Code
+$font-family-code: 'PT Mono', monospace;
+$font-size-code: 0.8em;
 
 // Padding
 $padding-large: 20%;
@@ -11,12 +15,12 @@ $padding-x-small: 3%;
 // Brand colours
 $brand-color: #ffffff;
 $background-color: #ffffff;
-$border-color: rgba(0, 0, 0, 0.1); // rgba recommended if using feature images
+$border-color: rgba(0, 0, 0, 0.03); // rgba recommended if using feature images
 
 // Typography colours
-$text-color: #383838;
+$text-color: rgba(0, 0, 0, .85);
 $link-color: #383838;
-$selection-color: #D4D4D4; // visible when highlighting text
+$selection-color: rgba(0, 0, 0, 0.05); // visible when highlighting text
 
 // Tags color
 $tags-color: #b0b0b0;

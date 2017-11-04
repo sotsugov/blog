@@ -24,6 +24,7 @@
 }
 a.button {
   @extend .button-link;
+  text-decoration: none;
 }
 .button-link {
   &:hover {

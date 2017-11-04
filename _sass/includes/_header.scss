@@ -8,15 +8,19 @@
 
   a {
     color: $header-link-color;
+    text-decoration: none;
   }
 
   .avatar {
     height: 2em;
     width: 2em;
     float: left;
-    margin-top: -3px;
-    border-radius: 0.2em;
+    margin-top: -7px;
     margin-right: 1em;
+    -moz-force-broken-image-icon: 1;
+    border-radius: 50%;
+    box-shadow: 0 6px 12px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
+
   }
 
   .site-title {
