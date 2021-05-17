@@ -60,7 +60,6 @@ theme_settings:
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   google_fonts: "Inter:400,700,700italic,400italic|Roboto+Slab:400,700,700italic,400italic|Roboto+Mono"
-
   # Post navigation
   post_navigation: false
 
