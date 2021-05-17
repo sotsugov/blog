@@ -8,7 +8,7 @@ theme_settings:
   title: Blog
   avatar:
   favicon: assets/favicon.ico
-  gravatar: ed780a0c10fb4a498468ae339803502f
+  gravatar: f2d8efe0b448cc85d0d0872637f03856
   description: "Igor Sotsugov Blog" # used by search engines
 
   # Header and footer text
@@ -17,7 +17,7 @@ theme_settings:
 
   # Icons
   rss: false
-  email_address: "sotsugov@gmail.com"
+  email_address:
   behance:
   bitbucket:
   dribbble:
@@ -25,17 +25,17 @@ theme_settings:
   flickr:
   gitlab:
   gitter:
-  github: "sotsugov"
+  github:
   google_plus:
   instagram:
-  linkedin: "https://www.linkedin.com/in/sotsugov/"
+  linkedin:
   pinterest:
   reddit:
   soundcloud:
   stack_exchange:  # Full URL
   steam:
   tumblr:
-  twitter: "sotsugov"
+  twitter:
   wordpress:
   youtube:
 
