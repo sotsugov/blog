@@ -40,8 +40,6 @@ theme_settings:
   youtube:
 
   # Scripts
-  google_analytics: "UA-108506908-1"
-  disqus_shortname: "blog-ksutsr9syf"
   katex: true # Enable if using math markup
   search: false # Enable the search feature
 
