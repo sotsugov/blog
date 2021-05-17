@@ -1,6 +1,6 @@
 # SITE CONFIGURATION
 baseurl: "/blog"
-url: "https://sotsugov.github.io"
+url: "https://sotsugov.com"
 
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
