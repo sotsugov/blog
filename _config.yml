@@ -5,11 +5,11 @@ url: "https://sotsugov.github.io"
 # THEME-SPECIFIC CONFIGURATION
 theme_settings:
   # Meta
-  title: Igor Sotsugov Blog
+  title: Blog
   avatar:
   favicon: assets/favicon.ico
-  gravatar: ed780a0c10fb4a498468ae339803502f
-  description: "Igor Sotsugov Blog" # used by search engines
+  gravatar: 95152387d69d196f3bbeb56e9a3acd5f
+  description: "A website with blog posts and pages" # used by search engines
 
   # Header and footer text
   footer_text: >
@@ -17,12 +17,14 @@ theme_settings:
 
   # Icons
   rss: false
+  email_address: "sotsugov@gmail.com"
   behance:
   bitbucket:
   dribbble:
   facebook:
   flickr:
   gitlab:
+  gitter:
   github: "sotsugov"
   google_plus:
   instagram:
@@ -41,6 +43,7 @@ theme_settings:
   google_analytics: "UA-108506908-1"
   disqus_shortname: "blog-ksutsr9syf"
   katex: true # Enable if using math markup
+  search: false # Enable the search feature
 
   # Localization strings
   str_follow_on: "Follow on"
@@ -52,11 +55,12 @@ theme_settings:
   str_previous_page: "Prev"
   str_continue_reading: "Continue reading"
   str_javascript_required_disqus: "Please enable JavaScript to view comments."
+  str_search_no_results: "No results found."
 
   # Colours, typography and padding
   # Open the "_sass > base" folder, and open "_variables.scss"
   # google_fonts: "Source+Sans+Pro:400,700,700italic,400italic"
-  google_fonts: "Inter:400,700|PT+Serif:400,700,700italic,400italic|Roboto+Mono"
+  google_fonts: "PT+Sans:400,700,700italic,400italic|PT+Serif:400,700,700italic,400italic"
 
   # Post navigation
   post_navigation: false
@@ -72,7 +76,6 @@ sass:
   sass_dir: _sass
   style: :compressed
 plugins: [jekyll-paginate]
-theme: jekyll-theme-type
 exclude:
   - Gemfile
   - Gemfile.lock
