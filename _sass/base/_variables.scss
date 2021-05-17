@@ -1,6 +1,6 @@
 // Typography
 $font-family-main: 'Inter', serif;
-$font-family-headings: 'Roboto Slab', sans-serif;
+$font-family-headings: 'Inter', serif;
 $font-size: 1.1em;
 
 // Code
@@ -15,7 +15,7 @@ $padding-x-small: 3%;
 // Brand colours
 $brand-color: #ffffff;
 $background-color: #ffffff;
-$border-color: rgb(13, 17, 23); // rgba recommended if using feature images
+$border-color: rgba(0, 0, 0, 0.03); // rgba recommended if using feature images
 
 // Typography colours
 $text-color: rgb(13, 17, 23);
