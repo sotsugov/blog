@@ -2,7 +2,6 @@
   @extend %padding-small;
   background: $brand-color;
   border-bottom: 1px solid $border-color;
-  display: inline-block;
   float: left;
   width: 100%;
 
@@ -19,8 +18,7 @@
     margin-right: 1em;
     -moz-force-broken-image-icon: 1;
     border-radius: 50%;
-    box-shadow: 0 6px 12px rgba(50, 50, 93, .1), 0 3px 6px rgba(0, 0, 0, .08);
-
+    box-shadow: 0 6px 12px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
   }
 
   .site-title {
@@ -46,7 +44,6 @@
     }
     @media (max-width: 1100px) {
       ul {
-        display: inline-block;
         float: left;
         padding-top: $padding-small;
         text-align: left;
